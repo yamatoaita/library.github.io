@@ -103,6 +103,7 @@ div{
         position: fixed;
         top: 200px;
         font-size: 15pt;
+        left: 30px;
 
     }
 }
@@ -110,6 +111,7 @@ div{
     .b{
         position: fixed;
         top: 250px;
+        left: 30px;
         font-size: 15pt;
 
     }
@@ -119,6 +121,7 @@ div{
         position: fixed;
         top: 300px;
         font-size: 15pt;
+        left: 30px;
 
     }
 }
@@ -127,14 +130,17 @@ div{
         position: fixed;
         top: 350px;
         font-size: 15pt;
-
+        left: 30px;
 
     }
 }
 @media(max-width: 480px){
     .ground{
         position: fixed;
-        max-width: 100%; /* 親要素の幅を超えない */
-        height: auto;
+        width: 370px;
+        height: 470px;
+        top: 20px;
+        left: 15px;
+
     }
 }

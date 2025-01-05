@@ -63,7 +63,7 @@ div{
     font-size: 25pt;
     top: 555px;
     left: 520px;
-
+    z-index : 99;
 
 }
 
